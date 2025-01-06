@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karls\\source\\repos\\CalculatorApp\\Calculator App\\Calculator App.csproj": {}
+    "C:\\Users\\karls\\source\\repos\\Calculator App\\Calculator App\\Calculator App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karls\\source\\repos\\CalculatorApp\\Calculator App\\Calculator App.csproj": {
+    "C:\\Users\\karls\\source\\repos\\Calculator App\\Calculator App\\Calculator App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karls\\source\\repos\\CalculatorApp\\Calculator App\\Calculator App.csproj",
+        "projectUniqueName": "C:\\Users\\karls\\source\\repos\\Calculator App\\Calculator App\\Calculator App.csproj",
         "projectName": "Calculator App",
-        "projectPath": "C:\\Users\\karls\\source\\repos\\CalculatorApp\\Calculator App\\Calculator App.csproj",
+        "projectPath": "C:\\Users\\karls\\source\\repos\\Calculator App\\Calculator App\\Calculator App.csproj",
         "packagesPath": "C:\\Users\\karls\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karls\\source\\repos\\CalculatorApp\\Calculator App\\obj\\",
+        "outputPath": "C:\\Users\\karls\\source\\repos\\Calculator App\\Calculator App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

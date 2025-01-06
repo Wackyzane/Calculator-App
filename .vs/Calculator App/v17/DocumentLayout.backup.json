@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\karls\\source\\repos\\CalculatorApp\\Calculator App\\",
+  "WorkspaceRootPath": "C:\\Users\\karls\\source\\repos\\CalculatorApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3B63AD7-5D77-4656-8007-55C9586B13BC}|Calculator App\\Calculator App.csproj|c:\\users\\karls\\source\\repos\\calculatorapp\\calculator app\\calculator app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B3B63AD7-5D77-4656-8007-55C9586B13BC}|Calculator App\\Calculator App.csproj|c:\\users\\karls\\source\\repos\\calculatorapp\\calculator app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B3B63AD7-5D77-4656-8007-55C9586B13BC}|Calculator App\\Calculator App.csproj|solutionrelative:calculator app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -20,9 +20,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\karls\\source\\repos\\CalculatorApp\\Calculator App\\Calculator App\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\karls\\source\\repos\\CalculatorApp\\Calculator App\\Form1.cs",
               "RelativeDocumentMoniker": "Calculator App\\Form1.cs",
-              "ToolTip": "C:\\Users\\karls\\source\\repos\\CalculatorApp\\Calculator App\\Calculator App\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\karls\\source\\repos\\CalculatorApp\\Calculator App\\Form1.cs [Design]",
               "RelativeToolTip": "Calculator App\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T05:34:00.066Z",
