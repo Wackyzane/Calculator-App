@@ -239,7 +239,8 @@
             // Display
             // 
             Display.BackColor = SystemColors.Desktop;
-            Display.Cursor = Cursors.Cross;
+            Display.Cursor = Cursors.IBeam;
+            Display.Font = new Font("Segoe UI", 18F);
             Display.ForeColor = SystemColors.ButtonFace;
             Display.Location = new Point(18, 87);
             Display.Name = "Display";
@@ -252,7 +253,7 @@
             // EquationDisplay
             // 
             EquationDisplay.BackColor = SystemColors.ControlDark;
-            EquationDisplay.Cursor = Cursors.Cross;
+            EquationDisplay.Cursor = Cursors.IBeam;
             EquationDisplay.ForeColor = SystemColors.ButtonFace;
             EquationDisplay.Location = new Point(18, 53);
             EquationDisplay.Name = "EquationDisplay";

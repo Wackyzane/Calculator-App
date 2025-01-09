@@ -1,13 +1,12 @@
 namespace Calculator_App
 {
-    using System.Collections.Generic;
     public partial class Form1 : Form
     {
         private string currentNumber = String.Empty;
         private string lastNumber = String.Empty;
         private string function = String.Empty;
         private string lastFunction = String.Empty;
-        private double lastResult = 0d;
+        private decimal lastResult = 0;
         private bool resetNumber = false;
         
 
@@ -127,7 +126,7 @@ namespace Calculator_App
         {
             if (Display.Text == "0") // Full Reset Calculator
             {
-                lastResult = 0d;
+                lastResult = 0;
                 function = String.Empty;
                 lastFunction = String.Empty;
                 lastNumber = String.Empty;
@@ -141,11 +140,12 @@ namespace Calculator_App
         private void GetTotal()
         {
             if (currentNumber == String.Empty) return;
-            if (function == "") lastResult = Convert.ToDouble(currentNumber);
-            else if (function == "+") lastResult += Convert.ToDouble(currentNumber);
-            else if (function == "-") lastResult -= Convert.ToDouble(currentNumber);
-            else if (function == "*") lastResult *= Convert.ToDouble(currentNumber);
-            else if (function == "/") lastResult /= Convert.ToDouble(currentNumber);
+            if (function == "") lastResult = Convert.ToDecimal(currentNumber);
+            else if (function == "+") lastResult += Convert.ToDecimal(currentNumber);
+            else if (function == "-") lastResult -= Convert.ToDecimal(currentNumber);
+            else if (function == "*") lastResult *= Convert.ToDecimal(currentNumber);
+            else if (function == "/") lastResult /= Convert.ToDecimal(currentNumber);
+            //lastResult = Math.Round(lastResult, 15);
         }
 
         private void UpdateDisplay()
