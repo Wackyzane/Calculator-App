@@ -4,9 +4,11 @@ namespace Calculator_App
     public partial class Form1 : Form
     {
         private string currentNumber = String.Empty;
+        private string lastNumber = String.Empty;
         private string function = String.Empty;
-        private bool resetCurrentNumber = true;
+        private string lastFunction = String.Empty;
         private double lastResult = 0d;
+        private bool resetNumber = false;
         
 
         public Form1()
@@ -101,31 +103,44 @@ namespace Calculator_App
 
         private void EqualsButton_Click(object sender, EventArgs e)
         {
-            if (function == "") return;
-            if (currentNumber == String.Empty) currentNumber = "0";
+            if (function == String.Empty && currentNumber == lastResult.ToString()) // Repeat last Action
+            {
+                function = lastFunction;
+                currentNumber = lastNumber;
+            }
+            else if (function == String.Empty && currentNumber != lastResult.ToString()) function = lastFunction; // Assume last function
+            if (currentNumber == String.Empty) currentNumber = "0"; // Assume user meant 0 if no number inputted
 
             EquationDisplay.Text = lastResult.ToString() + " " + function + " " + currentNumber + " = ";
             GetTotal();
-            Display.Text = lastResult.ToString();
-            resetCurrentNumber = true;
+
+            if (function != "") lastFunction = function;
+            function = "";
+            resetNumber = true;
+            lastNumber = currentNumber;
+            currentNumber = lastResult.ToString();
+
+            Display.Text = currentNumber;
         }
 
         private void ClearButton_Click(object sender, EventArgs e)
         {
-            if (Display.Text == "0")
+            if (Display.Text == "0") // Full Reset Calculator
             {
                 lastResult = 0d;
-                function = "";
+                function = String.Empty;
+                lastFunction = String.Empty;
+                lastNumber = String.Empty;
                 EquationDisplay.Text = String.Empty;
+                resetNumber = false;
             }
-            else Display.Text = "0";
+            else Display.Text = "0"; // Reset only current number, not equation
             currentNumber = String.Empty;
         }
 
         private void GetTotal()
         {
             if (currentNumber == String.Empty) return;
-            if (resetCurrentNumber) return;
             if (function == "") lastResult = Convert.ToDouble(currentNumber);
             else if (function == "+") lastResult += Convert.ToDouble(currentNumber);
             else if (function == "-") lastResult -= Convert.ToDouble(currentNumber);
@@ -142,16 +157,17 @@ namespace Calculator_App
 
         private void UpdateCurrentNumber(char number)
         {
-            if (number == '.' && currentNumber == String.Empty) currentNumber = "0";
-
-            if (currentNumber == "0") currentNumber = number.ToString();
-            else currentNumber += number;
-            if (resetCurrentNumber)
+            if (resetNumber)
             {
-                resetCurrentNumber = false;
-                currentNumber = number.ToString();
+                currentNumber = String.Empty;
+                resetNumber = false;
             }
+            if (number == '.' && currentNumber == String.Empty) currentNumber = "0"; // Add A 0 before the Decimal
 
+            if (currentNumber == "0") currentNumber = number.ToString(); // Remove 0 Before other numbers, IE 01 = 1
+            else currentNumber += number;
+
+            //currentNumber = number.ToString();
             Display.Text = currentNumber;
         }
     }
