@@ -52,7 +52,7 @@
             // Num1
             // 
             Num1.Font = new Font("Segoe UI", 18F);
-            Num1.Location = new Point(16, 324);
+            Num1.Location = new Point(15, 284);
             Num1.Name = "Num1";
             Num1.Size = new Size(58, 54);
             Num1.TabIndex = 0;
@@ -63,7 +63,7 @@
             // Num2
             // 
             Num2.Font = new Font("Segoe UI", 18F);
-            Num2.Location = new Point(80, 324);
+            Num2.Location = new Point(79, 284);
             Num2.Name = "Num2";
             Num2.Size = new Size(58, 54);
             Num2.TabIndex = 1;
@@ -74,7 +74,7 @@
             // Num3
             // 
             Num3.Font = new Font("Segoe UI", 18F);
-            Num3.Location = new Point(144, 324);
+            Num3.Location = new Point(143, 284);
             Num3.Name = "Num3";
             Num3.Size = new Size(58, 54);
             Num3.TabIndex = 2;
@@ -85,7 +85,7 @@
             // Num4
             // 
             Num4.Font = new Font("Segoe UI", 18F);
-            Num4.Location = new Point(16, 264);
+            Num4.Location = new Point(15, 224);
             Num4.Name = "Num4";
             Num4.Size = new Size(58, 54);
             Num4.TabIndex = 3;
@@ -96,7 +96,7 @@
             // Num5
             // 
             Num5.Font = new Font("Segoe UI", 18F);
-            Num5.Location = new Point(80, 264);
+            Num5.Location = new Point(79, 224);
             Num5.Name = "Num5";
             Num5.Size = new Size(58, 54);
             Num5.TabIndex = 4;
@@ -107,7 +107,7 @@
             // Num6
             // 
             Num6.Font = new Font("Segoe UI", 18F);
-            Num6.Location = new Point(144, 264);
+            Num6.Location = new Point(143, 224);
             Num6.Name = "Num6";
             Num6.Size = new Size(58, 54);
             Num6.TabIndex = 5;
@@ -118,7 +118,7 @@
             // Num7
             // 
             Num7.Font = new Font("Segoe UI", 18F);
-            Num7.Location = new Point(16, 204);
+            Num7.Location = new Point(15, 164);
             Num7.Name = "Num7";
             Num7.Size = new Size(58, 54);
             Num7.TabIndex = 6;
@@ -129,7 +129,7 @@
             // Num8
             // 
             Num8.Font = new Font("Segoe UI", 18F);
-            Num8.Location = new Point(80, 204);
+            Num8.Location = new Point(79, 164);
             Num8.Name = "Num8";
             Num8.Size = new Size(58, 54);
             Num8.TabIndex = 7;
@@ -140,7 +140,7 @@
             // Num9
             // 
             Num9.Font = new Font("Segoe UI", 18F);
-            Num9.Location = new Point(144, 204);
+            Num9.Location = new Point(143, 164);
             Num9.Name = "Num9";
             Num9.Size = new Size(58, 54);
             Num9.TabIndex = 8;
@@ -151,7 +151,7 @@
             // Num0
             // 
             Num0.Font = new Font("Segoe UI", 18F);
-            Num0.Location = new Point(16, 384);
+            Num0.Location = new Point(15, 344);
             Num0.Name = "Num0";
             Num0.Size = new Size(122, 54);
             Num0.TabIndex = 9;
@@ -162,7 +162,7 @@
             // DecimalButton
             // 
             DecimalButton.Font = new Font("Segoe UI", 18F);
-            DecimalButton.Location = new Point(144, 384);
+            DecimalButton.Location = new Point(143, 344);
             DecimalButton.Name = "DecimalButton";
             DecimalButton.Size = new Size(58, 54);
             DecimalButton.TabIndex = 10;
@@ -173,7 +173,7 @@
             // EqualsButton
             // 
             EqualsButton.Font = new Font("Segoe UI", 18F);
-            EqualsButton.Location = new Point(208, 324);
+            EqualsButton.Location = new Point(207, 284);
             EqualsButton.Name = "EqualsButton";
             EqualsButton.Size = new Size(58, 114);
             EqualsButton.TabIndex = 11;
@@ -184,7 +184,7 @@
             // AdditionButton
             // 
             AdditionButton.Font = new Font("Segoe UI", 18F);
-            AdditionButton.Location = new Point(208, 204);
+            AdditionButton.Location = new Point(207, 164);
             AdditionButton.Name = "AdditionButton";
             AdditionButton.Size = new Size(58, 114);
             AdditionButton.TabIndex = 12;
@@ -195,7 +195,7 @@
             // SubtractButton
             // 
             SubtractButton.Font = new Font("Segoe UI", 18F);
-            SubtractButton.Location = new Point(208, 144);
+            SubtractButton.Location = new Point(207, 104);
             SubtractButton.Name = "SubtractButton";
             SubtractButton.Size = new Size(58, 54);
             SubtractButton.TabIndex = 13;
@@ -206,7 +206,7 @@
             // MultiplyButton
             // 
             MultiplyButton.Font = new Font("Segoe UI", 18F);
-            MultiplyButton.Location = new Point(144, 144);
+            MultiplyButton.Location = new Point(143, 104);
             MultiplyButton.Name = "MultiplyButton";
             MultiplyButton.Size = new Size(58, 54);
             MultiplyButton.TabIndex = 14;
@@ -217,7 +217,7 @@
             // DivideButton
             // 
             DivideButton.Font = new Font("Segoe UI", 18F);
-            DivideButton.Location = new Point(80, 144);
+            DivideButton.Location = new Point(79, 104);
             DivideButton.Name = "DivideButton";
             DivideButton.Size = new Size(58, 54);
             DivideButton.TabIndex = 15;
@@ -228,7 +228,7 @@
             // ClearButton
             // 
             ClearButton.Font = new Font("Segoe UI", 12F);
-            ClearButton.Location = new Point(16, 144);
+            ClearButton.Location = new Point(15, 104);
             ClearButton.Name = "ClearButton";
             ClearButton.Size = new Size(58, 54);
             ClearButton.TabIndex = 16;
@@ -242,7 +242,7 @@
             Display.Cursor = Cursors.IBeam;
             Display.Font = new Font("Segoe UI", 18F);
             Display.ForeColor = SystemColors.ButtonFace;
-            Display.Location = new Point(18, 87);
+            Display.Location = new Point(17, 47);
             Display.Name = "Display";
             Display.Padding = new Padding(0, 0, 5, 0);
             Display.Size = new Size(248, 54);
@@ -255,7 +255,7 @@
             EquationDisplay.BackColor = SystemColors.ControlDark;
             EquationDisplay.Cursor = Cursors.IBeam;
             EquationDisplay.ForeColor = SystemColors.ButtonFace;
-            EquationDisplay.Location = new Point(18, 53);
+            EquationDisplay.Location = new Point(17, 13);
             EquationDisplay.Name = "EquationDisplay";
             EquationDisplay.Padding = new Padding(0, 0, 5, 0);
             EquationDisplay.Size = new Size(248, 31);
@@ -266,7 +266,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(277, 450);
+            ClientSize = new Size(277, 411);
             Controls.Add(EquationDisplay);
             Controls.Add(Display);
             Controls.Add(ClearButton);

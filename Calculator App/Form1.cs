@@ -117,7 +117,7 @@ namespace Calculator_App
             function = "";
             resetNumber = true;
             lastNumber = currentNumber;
-            currentNumber = lastResult.ToString();
+            currentNumber = lastResult.ToString("G29");
 
             Display.Text = currentNumber;
         }
@@ -145,7 +145,6 @@ namespace Calculator_App
             else if (function == "-") lastResult -= Convert.ToDecimal(currentNumber);
             else if (function == "*") lastResult *= Convert.ToDecimal(currentNumber);
             else if (function == "/") lastResult /= Convert.ToDecimal(currentNumber);
-            //lastResult = Math.Round(lastResult, 15);
         }
 
         private void UpdateDisplay()
